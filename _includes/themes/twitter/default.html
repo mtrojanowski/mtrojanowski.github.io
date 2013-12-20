@@ -33,6 +33,9 @@
   </head>
 
   <body>
+    <a href="http://github.com/mtrojanowski/mtrojanowski.github.io">
+        <img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub">
+    </a>
     <div class="navbar">
       <div class="navbar-inner">
         <div class="container-narrow">
@@ -53,7 +56,16 @@
       </div>
       <hr>
       <footer>
-        <p>&copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
+        <p id="social">
+            Some places where you can find me:
+            <a href="http://github.com/mtrojanowski" target="_new" ><img src="{{ ASSET_PATH }}/../icons/github.png" alt="github" /></a>
+            <a href="http://twitter.com/mz_trojan" target="_new" ><img src="{{ ASSET_PATH }}/../icons/twitter.png" alt="Twitter" /></a>
+            <a href="http://connect.sensiolabs.com/profile/misiotek" target="_new"><img src="{{ ASSET_PATH }}/../icons/sensio.png" alt="SensioLabs Connect" /></a>
+            <a href="http://stackoverflow.com/users/1712294/michal-trojanowski"><img src="{{ ASSET_PATH }}/../icons/so.png" alt="StackOverflow" /></a>
+            <a href="http://www.linkedin.com/pub/micha%C5%82-trojanowski/32/649/586" target="_new"><img src="{{ ASSET_PATH }}/../icons/in.png" alt="Linkedin" /></a>
+        </p>
+        <p style="text-align: center;">
+          &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}
           with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
           and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
         </p>

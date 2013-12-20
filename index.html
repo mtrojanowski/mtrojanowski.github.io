@@ -1,0 +1,33 @@
+---
+layout: page
+title: KMT Studio's blog
+tagline: only serious business
+---
+{% include JB/setup %}
+
+<div>
+    <img src="{{ ASSET_PATH }}images/moi.jpg" id="moi" />
+    <p>
+        I'm a web developer based in Poland. In this blog you can
+        find some information I found useful or interesting enough to 
+        share with the world. Mainly stuff about 
+        <a href="http://www.symfony.com" target="_new">Symfony</a>, but
+        also PHP in general, maybe some front-end topics. I hope you'll enjoy
+        it.
+    </p>
+</div>
+
+<h3>Some of my latest posts:</h3>
+<ul id="post_list">
+{% for post in site.posts limit:5 %}
+    <li><a href="{{ post.url }}">{{ post.title }} | <span class="small">{{ post.date | date_to_long_string }}</span></a></li>
+{% endfor %}
+</ul>
+
+<h3>Bragging corner</h3>
+<hr />
+<div>
+    <a href="http://stackoverflow.com/users/1712294/michal-trojanowski">
+        <img src="http://stackoverflow.com/users/flair/1712294.png?theme=dark" width="208" height="58" alt="profile for Michal Trojanowski at Stack Overflow, Q&A for professional and enthusiast programmers" title="profile for Michal Trojanowski at Stack Overflow, Q&A for professional and enthusiast programmers">
+    </a>
+</div>

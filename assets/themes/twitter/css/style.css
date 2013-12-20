@@ -63,3 +63,25 @@
   background: #57A957;
   border: 1px solid #4c964d;
   color: #FFF; }
+  
+#moi {
+	float: right;
+	margin: 0px 0px 10px 10px;
+	border: 4px double black;
+}
+
+.small {
+	font-style: italic;
+	font-size: 0.9em;
+}
+
+footer {
+	text-align: center;
+}
+#social a {
+	margin-left: 8px;
+}
+
+#post_list {
+	margin: 20px 0px;
+}
