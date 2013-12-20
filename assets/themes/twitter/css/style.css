@@ -85,3 +85,12 @@ footer {
 #post_list {
 	margin: 20px 0px;
 }
+
+#bragging div {
+	float: left;
+	margin-right: 10px;
+}
+
+iframe {
+	border: none;
+}
