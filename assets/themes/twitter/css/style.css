@@ -28,6 +28,10 @@
   margin-bottom: 20px;
   font-weight: bold; }
 
+.post-full h2 {
+    font-size: 26.5px;
+}
+
 /* tag_box */
 .tag_box {
   list-style: none;
@@ -64,8 +68,11 @@
   border: 1px solid #4c964d;
   color: #FFF; }
   
-#moi {
-	float: right;
+.moi {
+    text-align: center;
+}
+
+.moi img {
 	margin: 0px 0px 10px 10px;
 	border: 4px double black;
 }
@@ -93,4 +100,17 @@ footer {
 
 iframe {
 	border: none;
+}
+
+.github_ribbon {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 100;
+}
+
+@media (min-width: 457px) and (max-width: 885px) {
+    .github_ribbon {
+        top: 42px;
+    }
 }
