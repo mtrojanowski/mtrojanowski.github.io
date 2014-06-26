@@ -1,7 +1,9 @@
 ---
 title: Tips on using Data Import Handler with SOLR
-description: Some useful tips when using a Data Import Handler to create collection
-             of documents for SOLR.
+description: During my recent work with SOLR I encoutered some problems when
+             using Data Import Handler to populate the search documents. In the
+             post you can find some tips which I hope will help tackle the problems
+             I had.
 layout: post
 category : programming
 tags : [solr]

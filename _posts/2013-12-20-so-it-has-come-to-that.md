@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "So it has come to that..."
-description: ""
+title: So it has come to that...
+description: Just an initial post of my blog. Not really fun stuff.
 category: "general"
 tags: []
 ---
