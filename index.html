@@ -12,14 +12,13 @@ tagline: only serious business
     <p>
         I'm a web developer based in Poland. In this blog you can
         find some information I found useful or interesting enough to 
-        share with the world. Mainly stuff about 
-        <a href="http://www.symfony.com" target="_new">Symfony</a>, but
-        also PHP in general, maybe some front-end topics. I hope you'll enjoy
-        it.
+        share with the world. Some time ago I thought it will be mainly stuff about 
+        <a href="http://www.symfony.com" target="_new">Symfony</a>, and PHP in general.
+		You can now find anything software development related.
     </p>
 </div>
 
-<h3>Some of my latest posts:</h3>
+<h3>My latest posts:</h3>
 <ul id="post_list">
 {% for post in site.posts limit:5 %}
     <li><a href="{{ post.url }}">{{ post.title }} | <span class="small">{{ post.date | date_to_long_string }}</span></a></li>
