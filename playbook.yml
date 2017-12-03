@@ -20,3 +20,12 @@
 
   - name: ensure cname
     apt: name=cmake
+
+  - name: link to start pages script
+    copy:
+      src: /vagrant/files/{{ item.name }}
+      dest: /usr/local/bin/{{ item.name }}
+      mode: "u+x"
+    with_items:
+      - { name: 'pages_start' }
+      - { name: 'pages_update_deps' }
