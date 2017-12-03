@@ -1,0 +1,22 @@
+---
+
+- hosts: all
+  remote_user: root
+  become: yes
+
+  tasks:
+  - name: ensure ruby et al
+    apt:
+      name: ruby,ruby-bundler,ruby-all-dev,zlib1g-dev,software-properties-common
+      update_cache: yes
+
+  - name: update gems
+    shell: gem update --system
+
+  - name: add cname repository
+    apt_repository:
+      repo: 'ppa:george-edison55/cmake-3.x'
+      update_cache: true
+
+  - name: ensure cname
+    apt: name=cmake
