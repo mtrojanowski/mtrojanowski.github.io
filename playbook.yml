@@ -29,3 +29,4 @@
     with_items:
       - { name: 'pages_start' }
       - { name: 'pages_update_deps' }
+      - { name: 'pages_start_with_drafts' }
