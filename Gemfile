@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
-gem 'github-pages', '>= 221'
+gem 'github-pages', '>= 222'
 gem 'jekyll-gist', '>= 1.5.0'
